@@ -1,8 +1,7 @@
 @import url(_variables.scss);
-/** maps **/
+
 html {
-  /* El fondo esta sujeto a cambios, porque se le ve la marca de agua */
-  background-image: url(https://img.freepik.com/foto-gratis/paisaje-niebla-matutina-montanas-globos-aerostaticos-al-amanecer_335224-794.jpg?w=2000);
+  background-image: url(https://img.freepik.com/fotos-premium/paisaje-montana-globos-aerostaticos-hermoso-cielo_387864-4989.jpg?w=900);
   background-size: cover;
   margin-left: 80px;
   margin-right: 80px;
@@ -124,8 +123,50 @@ aside #imagenAvion3:hover {
   display: flexbox;
 }
 
+.imagenPaquetes1{
+  width: 23rem;
+}
+
+.imagenPaquetes2{
+  width: 27.45rem;
+}
+
+.imagenPaquetes3{
+  width: 355px; 
+  height: 215px
+}
+
+.imagenPaquetes4{
+width: 544px;
+}
+
+.imagenPaquetes5{
+width: 560px;
+
+}
+
 /* responsive */
 @media screen and (min-width: 0px) and (max-width: 767px) {
+  .imagenPaquetes1{
+    width: 320px;
+  }
+
+  .imagenPaquetes2{
+    width: 34rem;
+  }
+
+  .imagenPaquetes3{
+    width: 320px;
+  }
+
+  .imagenPaquetes4{
+    width: 320px;
+  }
+
+  .imagenPaquetes5{
+    width: 320px;
+  }
+
   .section2 {
     display: none;
   }
